@@ -59,7 +59,7 @@ Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
 ![Image](../plantUML/WSProspect-ArchiApplicative.png)
 
 [< Precedent](./xxx.md) | [Table des matières](./999-toc.md) | [Suivant >](./xxx.md)
-[Index](./index.md)
+[Index](./000-index.md)
 
 # Table des matières
 
@@ -69,4 +69,4 @@ Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
 - Chapitre 4
 - Chapitre 5
 
-[Index](./index.md)
+[Index](./000-index.md)
