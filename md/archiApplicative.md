@@ -2,4 +2,4 @@
 
 ![Image](../plantUML/WSProspect-ArchiApplicative.png)
 
-[< Index](./index.md) | [Table des matières](./toc.md)
+[< Precedent](./xxx.md) | [Table des matières](./toc.md) | [Suivant >](./xxx.md)
