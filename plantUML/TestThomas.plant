@@ -1,0 +1,36 @@
+@startuml
+
+package "Frontal" {
+    [Masters] as EZ
+}
+
+package "Service WSProspect"{
+    [WSProspect] as Svc
+
+    database [HOMESQL1] {
+        folder ETL_BDD {
+            entity WSProspect_Prospect as p
+            entity WSProspect_Prospect_Programme as pp
+        }
+    }
+}
+
+package "Flux planifié" {
+    cloud "SALESFORCE" {
+        [ARPEGE] as ARPEGE
+    }
+    package "TDI" {
+    [TALEND] as Talend
+    }
+}
+
+EZ -down-> Svc
+Svc -down-> p
+Svc -> pp
+
+p -down-> Talend
+Talend -right-> ARPEGE : "Contacts"
+pp -> Talend
+Talend -right-> ARPEGE : "Opportunités"
+
+@enduml

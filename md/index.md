@@ -30,7 +30,7 @@ Numbered list:
 
 A [link](http://example.com).
 
-![Image](../image/TransitionDomaineProspectionMarketingFC.png)
+![Image](../plantUML/TransitionDomaineProspectionMarketingFC.png)
 
 > Markdown uses email-style > characters for blockquoting.
 
