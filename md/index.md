@@ -1,9 +1,15 @@
 AID WSProspect
 =======
 
-## Architecture applicative
+# Table des matières
 
-![Image](../plantUML/WSProspect-ArchiApplicative.png)
+#include "./toc.md"
+
+- [Architecture Applicative](./archiApplicative.md)
+- Chapitre 2
+- Chapitre 3
+- Chapitre 4
+- Chapitre 5
 
 Heading
 =======
