@@ -5,23 +5,23 @@ note left of [EML ez5] : Clever
 [FO]
 database "Canel 2 Prod"
 note left of [Canel 2 Prod] : .Net 4 -> 4.5  2015
-[Arpege_SW]
-[Arpege]
+[Arpège_SW] 
+[Arpège] 
 [ABW SW]
 note right of [ABW SW] : .Net 4.0 2010
 [UNIT 4]
 () "EML WS Prospect" as EMLWSProspect
 () "WS Candidat" as WSCandidat
-[Arpege] --> EMLWSProspect
-[Arpege_SW] --> [Arpege] : TDI
-[ABW SW] -> [Arpege]
+[Arpège] --> EMLWSProspect 
+[Arpège_SW] --> [Arpège] : TDI
+[ABW SW] -> [Arpège] 
 [UNIT 4] -> [ABW SW]
-[Arpege] -> [UNIT 4]
-User --> [EML ez5]
+[Arpège] -> [UNIT 4]
+User --> [EML ez5] 
 [EML ez5] --> [FO]
 [FO] --> [Canel 2 Prod]
-[EML ez5] -> EMLWSProspect : Catalogue Ref\nInfos Candidature
+[EML ez5] <--> EMLWSProspect : Catalogue Ref\nInfos Candidature
 EMLWSProspect -> WSCandidat
 WSCandidat -> [Canel 2 Prod]
-[Canel 2 Prod] -> [Arpege] : TDI Maj Status
+[Canel 2 Prod] -> [Arpège] : TDI Maj Status
 @enduml
