@@ -52,13 +52,13 @@ Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
 | Colonne       |     Colonne     |        Colonne |
 | Alignée à     |   Alignée au    |      Alignée à |
 | Gauche        |     Centre      |         Droite |
-[< Precedent](./xxx.md) | [Table des matières](./toc.md) | [Suivant >](./xxx.md)
+[< Precedent](./xxx.md) | [Table des matières](./999-toc.md) | [Suivant >](./xxx.md)
 
 # Architecture applicative
 
 ![Image](../plantUML/WSProspect-ArchiApplicative.png)
 
-[< Precedent](./xxx.md) | [Table des matières](./toc.md) | [Suivant >](./xxx.md)
+[< Precedent](./xxx.md) | [Table des matières](./999-toc.md) | [Suivant >](./xxx.md)
 [Index](./index.md)
 
 # Table des matières
