@@ -1,3 +1,10 @@
+AID WSProspect
+=======
+
+## Architecture applicative
+
+![Image](../plantUML/WSProspect-ArchiApplicative.png)
+
 Heading
 =======
 
@@ -30,7 +37,7 @@ Numbered list:
 
 A [link](http://example.com).
 
-![Image](../plantUML/TransitionDomaineProspectionMarketingFC.png)
+![Image](image.png)
 
 > Markdown uses email-style > characters for blockquoting.
 
