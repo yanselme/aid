@@ -3,8 +3,6 @@ AID WSProspect
 
 # Table des matières
 
-#include "./toc.md"
-
 - [Architecture Applicative](./archiApplicative.md)
 - Chapitre 2
 - Chapitre 3
