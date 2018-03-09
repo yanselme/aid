@@ -37,8 +37,14 @@ Numbered list:
 
 A [link](http://example.com).
 
-![Image](image.png)
+![Image](Image_icon.png)
 
 > Markdown uses email-style > characters for blockquoting.
 
 Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
+
+| Titre 1       |     Titre 2     |        Titre 3 |
+| :------------ | :-------------: | -------------: |
+| Colonne       |     Colonne     |        Colonne |
+| Alignée à     |   Alignée au    |      Alignée à |
+| Gauche        |     Centre      |         Droite |
