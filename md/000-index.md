@@ -1,10 +1,42 @@
 AID WSProspect
 =======
 
+## Maîtrise du document
+
+### Propriétaire/Auteur     
+| Rôle | Nom |
+| :-: | :-: |
+|x|x|
+
+### Revue
+| Rôle | Nom |
+| :-: | :-: |
+|SME Client	|x|
+|Directeur de système de Client|x|
+|Directeur de compte|x|
+
+### Équipe de management de transformation
+| Rôle | Nom |
+| :-: | :-: |
+|Responsable de transformation Client	|x|
+
+### Gestion des révisions
+
+| Version | Description des changements | Date |
+| :-: | :-: | :-: |
+|0.1|x|x|
+
+> Note :
+Date de sortie : Cette date est la date de fourniture de documents après les  revues.
+Des changements cosmétiques peuvent être publiés sans revue. Ceci peut engendrer un changement de date sans modifier le numéro de version.
+
+> Numéro de version : C’est le numéro d'identification de document. Pour la version provisoire, le numéro initial commence par 0.1.  Pour la version de base, le numéro de version commence par 1.0, puis incrémenté par 1 toutes les fois que la révision est passée en revue et validée  par les groupes impactés.
+
+
 ## Table des matières
 
-- [Objectifs](./000-index.md "Objectifs")
-- [Terminologie et Acronymes](./000-index.md "Terminologie et Acronymes")
+- [Objectifs](./000-index.md "Objectifs2")
+- [Terminologie et Acronymes](./000-index.md "Expert")
 - [Vue Fonctionnelle](./100-vueFonctionnelle.md)
 - [Architecture Technique Général](./200-archiTechnique.md)
 - [Bases de Donnees et Dossiers](./300-baseDonnees.md)
@@ -19,7 +51,7 @@ AID WSProspect
 - Historique De L'Application
 - Documents De Référence
 
-##	Objectifs
+##	Objectifs2
 
 L'objectif du document descriptif d’application (AID) est de fournir aux membres de l'équipe une vue d'ensemble de l'application <Application>.  L'AID décrit la fonction de l'application, la structure des applications, la configuration de l’application et l'environnement technique. Ce document pourra faire référence à n'importe quelle documentation existante.
 L'équipe de delivery tiendra l'AID à jour durant toute la vie de l'application <Application>.
