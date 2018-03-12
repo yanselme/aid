@@ -8,6 +8,6 @@ L’application WS Propsect permet aux utilisateurs de s’inscrire aux formatio
 
 ![Image](../image/WSProspect-DiagrammeContexte.png)
 
-[< Precedent](./000-index.md) | [Table des matières](./999-toc.md) | [Suivant >](./200-archiTechnique.md)
-
 ##	Architecture Fonctionnelle
+
+[< Precedent](./000-index.md) | [Table des matières](./999-toc.md) | [Suivant >](./200-archiTechnique.md)
