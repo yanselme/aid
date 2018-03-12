@@ -1,4 +1,4 @@
-[< Precedent](./100-vueFonctionnelle.md) | [Table des matières](./999-toc.md) | [Suivant >](./xxx.md)
+[< Precedent](./100-vueFonctionnelle.md) | [Table des matières](./999-toc.md) | [Suivant >](./300-baseDonnees.md)
 
 # Architecture Technique Générale
 
@@ -43,4 +43,4 @@ L’application requière un contexte par transaction. Les transactions sont gé
 
 ##	Autres Eléments Techniques
 
-[< Precedent](./100-vueFonctionnelle.md) | [Table des matières](./999-toc.md) | [Suivant >](./xxx.md)
+[< Precedent](./100-vueFonctionnelle.md) | [Table des matières](./999-toc.md) | [Suivant >](./300-baseDonnees.md)
