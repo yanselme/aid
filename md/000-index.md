@@ -35,8 +35,8 @@ Des changements cosmétiques peuvent être publiés sans revue. Ceci peut engend
 
 ## Table des matières
 
-- [Objectifs](./000-index.md#objectif)
-- [Terminologie et Acronymes](./000-index.md "Expert")
+- [Objectifs](./000-index.md#objectifs)
+- [Terminologie et Acronymes](./000-index.md#terminologie-et-acronymes)
 - [Vue Fonctionnelle](./100-vueFonctionnelle.md)
 - [Architecture Technique Général](./200-archiTechnique.md)
 - [Bases de Donnees et Dossiers](./300-baseDonnees.md)
@@ -110,5 +110,3 @@ Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
 | Colonne       |     Colonne     |        Colonne |
 | Alignée à     |   Alignée au    |      Alignée à |
 | Gauche        |     Centre      |         Droite |
-
-## test
