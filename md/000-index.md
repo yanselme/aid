@@ -35,7 +35,7 @@ Des changements cosmétiques peuvent être publiés sans revue. Ceci peut engend
 
 ## Table des matières
 
-- [Objectifs](./000-index.md "Objectifs2")
+- [Objectifs](./000-index.md#objectifs")
 - [Terminologie et Acronymes](./000-index.md "Expert")
 - [Vue Fonctionnelle](./100-vueFonctionnelle.md)
 - [Architecture Technique Général](./200-archiTechnique.md)
@@ -51,7 +51,7 @@ Des changements cosmétiques peuvent être publiés sans revue. Ceci peut engend
 - Historique De L'Application
 - Documents De Référence
 
-##	Objectifs2
+##	Objectifs
 
 L'objectif du document descriptif d’application (AID) est de fournir aux membres de l'équipe une vue d'ensemble de l'application <Application>.  L'AID décrit la fonction de l'application, la structure des applications, la configuration de l’application et l'environnement technique. Ce document pourra faire référence à n'importe quelle documentation existante.
 L'équipe de delivery tiendra l'AID à jour durant toute la vie de l'application <Application>.
