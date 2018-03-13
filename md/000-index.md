@@ -1,7 +1,7 @@
-# AID WSProspect
+# Application Information Document (AID) WSProspect
 
-Version: 0.1
-Date : 12/03/2018
+Version: 0.1  
+Date : 12/03/2018  
 Status: Draft
 
 ## Historique des modifications
