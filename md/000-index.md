@@ -2,8 +2,8 @@
 
 Version: 0.1  
 Date : 12/03/2018  
-Status: Draft 
-[Version PDF](./site.pdf).
+Status: Draft  
+[Version PDF](./site.pdf)  
 
 ## Historique des modifications
 | Version | Date       | Auteur        | Description de la modification |
