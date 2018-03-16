@@ -1,4 +1,3 @@
-# AID WSProspect
 # Application Information Document (AID) WSProspect
 
 Version: 0.1  
