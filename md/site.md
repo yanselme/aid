@@ -1,8 +1,10 @@
 # AID WSProspect
+# Application Information Document (AID) WSProspect
 
-Version: 0.1
-Date : 12/03/2018
-Status: Draft
+Version: 0.1  
+Date : 12/03/2018  
+Status: Draft  
+[Version PDF](./site.pdf)  
 
 ## Historique des modifications
 | Version | Date       | Auteur        | Description de la modification |
@@ -64,6 +66,8 @@ Les acronymes et la terminologie spécifiquement utilisés dans ce document sont
 | :------------: | :-------------: | :-------------: |
 | 1       |     AID     |        Document descriptif d’application |
 | 2       |     SME     |        Expert applicatif |
+
+[Table des matières](./999-toc.md) | [Suivant >](./100-vueFonctionnelle.md)
 [< Precedent](./000-index.md) | [Table des matières](./999-toc.md) | [Suivant >](./200-archiTechnique.md)
 
 # Vue Fonctionnelle
@@ -74,9 +78,9 @@ L’application WS Propsect permet aux utilisateurs de s’inscrire aux formatio
 
 ![Image](../image/WSProspect-DiagrammeContexte.png)
 
-[< Precedent](./000-index.md) | [Table des matières](./999-toc.md) | [Suivant >](./200-archiTechnique.md)
-
 ##	Architecture Fonctionnelle
+
+[< Precedent](./000-index.md) | [Table des matières](./999-toc.md) | [Suivant >](./200-archiTechnique.md)
 [< Precedent](./100-vueFonctionnelle.md) | [Table des matières](./999-toc.md) | [Suivant >](./300-baseDonnees.md)
 
 # Architecture Technique Générale
