@@ -21,7 +21,6 @@ Enchainement entre écrans, action possible sur la flèche
 | Id | Type | Obligatoire (O /N) | Description | Valeurs possible | Source de Données |
 |----|------|--------------------|-------------|------------------|-------------------|
 |    |      |                    |             |                  |                   |
-|    |      |                    |             |                  |                   |
 
 ### Règles métiers
 

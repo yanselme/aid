@@ -21,33 +21,33 @@ Des changements cosmétiques peuvent être publiés sans revue. Ceci peut engend
 ## Auteurs
 | Rôle        | Nom           | Société |
 |-------------|---------------|---------|
-| Developpeur | [Auteur]      | IBM     |
+| [Rôle]      | [Auteur]      | IBM     |
 
 ## Révisions
 Ce document a été revu par les personnes suivantes :
 
-| Rôle | Nom | Société |
-|------|-----|---------|
-|      |     |         |
+| Rôle        | Nom           | Société |
+|-------------|---------------|---------|
+| [Rôle]      | [Auteur]      | IBM     |
 
 ## Approbations
 Ce document a été approuvé par les personnes suivantes :
 
-| Rôle | Nom | Société |
-|------|-----|---------|
-|      |     |         |
+| Rôle        | Nom           | Société |
+|-------------|---------------|---------|
+| [Rôle]      | [Auteur]      | IBM     |
 
 ## Table des matières
 
 - [Objectifs](./0000-index.md#objectifs)
-- [Terminologie et Acronymes](./000-index.md#terminologie-et-acronymes)
+- [Terminologie et Acronymes](./0000-index.md#terminologie-et-acronymes)
 - [Vue Fonctionnelle](./0300-vueFonctionnelle.md)
 - [Architecture Technique Général](./0400-archiTechnique.md)
 - [Bases de Donnees et Dossiers](./0500-baseDonnees.md)
-- [Interfaces / services](./0600-InterfacesServices.md)
+- [Interfaces / services](./0600-interfacesServices.md)
 - [Batch Jobs](./0700-batchs.md)
 - [Interfaces Utilisateurs](./0800-interfacesUtilisateurs.md)
-- [Environnement](0900-environnement./.md)
+- [Environnement](0900-environnement.md)
 - [Procedure De Deploiment](./1000-procedureDeploiement.md)
 - [Activites Périodiques](./1100-activitesPeriodiques.md)
 - [Procédure De Backup](./1200-procedureDeBackup.md)
