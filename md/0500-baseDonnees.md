@@ -4,11 +4,13 @@
 
 ## Modèle
 
+[insérer schéma modèle de donnée]
+
 ## Autres Fichiers/Répertoire
 
 ## Triggers
 
-## Stored Procs
+## Procédures stockées
 
 ## Extraction de données
 

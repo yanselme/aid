@@ -1,0 +1,22 @@
+@startuml
+UserManagmentWS -> MMOBCompanyCacheManager : getMechanicsList
+UserManagmentWS -> AssignableBeanLocal : computeResourceUsageForMechanics
+AssignableBeanLocal -> AssignableBeanLocal : computeWOsPerMechanics
+alt !pAssignations.isEmpty()
+AssignableBeanLocal -> AssignableBeanLocal : updateListWithAssignedMwo
+AssignableBeanLocal -> AssignableBeanLocal : updateListWithAssignedTAT
+end
+AssignableBeanLocal -> AssignableBeanLocal : computeTATsPerMechanics
+alt !pAssignations.isEmpty()
+AssignableBeanLocal -> AssignableBeanLocal : updateTATsPerMechanicsWithSelectedAssignations
+end
+AssignableBeanLocal -> AssignableBeanLocal : computeNumberOfMechanicsPerMwo
+AssignableBeanLocal -> AssignableBeanLocal : computeMaintenanceWorkOrderPerUser
+AssignableBeanLocal -> UserList: getUsers
+loop iUser
+            AssignableBeanLocal -> User : setWorkload
+            AssignableBeanLocal -> User : setBeginTime
+            AssignableBeanLocal -> User : setEndTime
+end
+AssignableBeanLocal --> UserManagmentWS : return MechanicsList
+@enduml

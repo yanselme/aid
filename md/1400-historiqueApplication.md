@@ -5,10 +5,10 @@
 ## Problèmes typiques
 
 ## Historique des releases
-(à préciser  avec un personne de l’équipe  TMA )
+[à préciser  avec un personne de l’équipe  TMA]
 
 ## Histoire de maintenance
-(à préciser  avec un personne de l’équipe TMA  )
+[à préciser  avec un personne de l’équipe TMA]
 
 ## Interlocuteurs privilégiés  
 

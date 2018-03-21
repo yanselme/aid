@@ -1,0 +1,18 @@
+ @startuml
+User ---> (Aircraft TAT List) : click on "3 planes" icon
+(Aircraft TAT List) ---> (Aircraft TAT Detail) : click on Aircraft
+(Aircraft TAT List) --> (Sync Box) : click on "sync" icon
+(Aircraft TAT List) --> (Filter) : click on "filter" icon
+(Aircraft TAT List) --> (Aircraft TAT List) : click on "search" icon
+(Filter) --> (Aircraft TAT List) : CANCEL
+(Filter) --> (Aircraft TAT List) : APPLY
+(Aircraft TAT List) --> (Sorter) : click on "sorter" icon
+(Aircraft TAT Detail) --> (Sync Box) : click on "sync" icon
+(Aircraft TAT Detail) --> (Assign Mechanic) : click on "user" icon at TAT level
+(Aircraft TAT Detail) --> (Assign Mechanic) : click on "user" icon at WO level
+(Aircraft TAT Detail) --> (Preview) : PREVIEW
+(Aircraft TAT Detail) --> (Aircraft TAT Detail) : click on Aircraft
+(Assign Mechanic) --> (Aircraft TAT Detail) : CANCEL
+(Assign Mechanic) --> (Aircraft TAT Detail) : OK
+(Preview) --> (Aircraft TAT Detail) : X
+@enduml

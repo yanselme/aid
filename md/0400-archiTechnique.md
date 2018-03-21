@@ -4,9 +4,13 @@
 
 ## Architecture applicative
 
-![Image](../plantUML/WSProspect-ArchiApplicative.png)
+[insérer schéma architecture applicative]
+
+![Image](../plantUML/Template-ArchiApplicative.png)
 
 ## Architecture Opérationnel
+
+[insérer schéma architecture opérationnel]
 
 ##	Plateforme Technique
 
