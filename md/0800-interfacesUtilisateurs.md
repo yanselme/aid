@@ -1,4 +1,4 @@
-[< Precedent](./0700-batchs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0900-environnement.md)
+[< Précédent](./0700-batchs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0900-environnement.md)
 
 #	Interfaces Utilisateurs
 
@@ -28,4 +28,4 @@
 
 ## Ecran [Nom Ecran #2]
 
-[< Precedent](./0700-batchs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0900-environnement.md)
+[< Précédent](./0700-batchs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0900-environnement.md)

@@ -1,14 +1,16 @@
-# Application Information Document (AID) WSProspect
+[Table des matières](./9999-toc.md) | [Suivant >](./0300-vueFonctionnelle.md)
 
-Version: 0.1  
-Date : 12/03/2018  
+# Application Information Document (AID) [Nom Application]
+
+Version: x.y  
+Date : dd/mm/yyyy  
 Status: Draft  
 [Version PDF](./site.pdf)  
 
 ## Historique des modifications
 | Version | Date       | Auteur        | Description de la modification |
 |---------|------------|---------------|--------------------------------|
-| 0.1     | 12/03/2018 | Bounlay H     | Version initiale               |        
+| x.y     | dd/mm/yyyy | [Auteur]      | Version initiale               |        
 
 > Note :
 Date  : Cette date est la date de fourniture de documents après les  revues.
@@ -19,43 +21,43 @@ Des changements cosmétiques peuvent être publiés sans revue. Ceci peut engend
 ## Auteurs
 | Rôle        | Nom           | Société |
 |-------------|---------------|---------|
-| Developpeur | Bounlay H     | IBM     |
+| [Rôle]      | [Auteur]      | IBM     |
 
 ## Révisions
 Ce document a été revu par les personnes suivantes :
 
-| Rôle | Nom | Société |
-|------|-----|---------|
-|      |     |         |
+| Rôle        | Nom           | Société |
+|-------------|---------------|---------|
+| [Rôle]      | [Auteur]      | IBM     |
 
 ## Approbations
 Ce document a été approuvé par les personnes suivantes :
 
-| Rôle | Nom | Société |
-|------|-----|---------|
-|      |     |         |
+| Rôle        | Nom           | Société |
+|-------------|---------------|---------|
+| [Rôle]      | [Auteur]      | IBM     |
 
 ## Table des matières
 
-- [Objectifs](./000-index.md#objectifs)
-- [Terminologie et Acronymes](./000-index.md#terminologie-et-acronymes)
-- [Vue Fonctionnelle](./100-vueFonctionnelle.md)
-- [Architecture Technique Général](./200-archiTechnique.md)
-- [Bases de Donnees et Dossiers](./300-baseDonnees.md)
-- [Interfaces / services](./400-InterfacesServices.md)
-- [Batch Jobs](./500-batchJobs.md)
-- Interfaces Utilisateurs
-- Environnement
-- Procedure De Deploiment
-- Activites Périodiques
-- Procédure De Backup
-- Normes Et Conventions
-- Historique De L'Application
-- Documents De Référence
+- [Objectifs](./0000-index.md#objectifs)
+- [Terminologie et Acronymes](./0000-index.md#terminologie-et-acronymes)
+- [Vue Fonctionnelle](./0300-vueFonctionnelle.md)
+- [Architecture Technique Général](./0400-archiTechnique.md)
+- [Bases de Donnees et Dossiers](./0500-baseDonnees.md)
+- [Interfaces / services](./0600-interfacesServices.md)
+- [Batch Jobs](./0700-batchs.md)
+- [Interfaces Utilisateurs](./0800-interfacesUtilisateurs.md)
+- [Environnement](0900-environnement.md)
+- [Procedure De Deploiment](./1000-procedureDeploiement.md)
+- [Activites Périodiques](./1100-activitesPeriodiques.md)
+- [Procédure De Backup](./1200-procedureDeBackup.md)
+- [Normes Et Conventions](./1300-normesEtConventions.md)
+- [Historique De l'Application](./1400-historiqueApplication.md)
+- [Documents De Référence](./1500-documentsReference.md)
 
 #	Objectifs
 
-L'objectif du document descriptif d’application (AID) est de fournir aux membres de l'équipe une vue d'ensemble de l'application WS Prospect. L'AID décrit la fonction de l'application, la structure des applications, la configuration de l’application et l'environnement technique. Ce document pourra faire référence à n'importe quelle documentation existante.
+L'objectif du document descriptif d’application (AID) est de fournir aux membres de l'équipe une vue d'ensemble de l'application [Application]. L'AID décrit la fonction de l'application, la structure des applications, la configuration de l’application et l'environnement technique. Ce document pourra faire référence à n'importe quelle documentation existante.
 L'équipe de delivery tiendra l'AID à jour durant toute la vie de l'application WS Prospect.
 
 # Terminologie et Acronymes
@@ -66,29 +68,37 @@ Les acronymes et la terminologie spécifiquement utilisés dans ce document sont
 | 1       |     AID     |        Document descriptif d’application |
 | 2       |     SME     |        Expert applicatif |
 
-[Table des matières](./999-toc.md) | [Suivant >](./100-vueFonctionnelle.md)
-[< Precedent](./000-index.md) | [Table des matières](./999-toc.md) | [Suivant >](./200-archiTechnique.md)
+[Table des matières](./9999-toc.md) | [Suivant >](./0300-vueFonctionnelle.md)
+[< Précédent](./0000-index.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0400-archiTechnique.md)
 
 # Vue Fonctionnelle
 
-L’application WS Propsect permet aux utilisateurs de s’inscrire aux formations initiales et continue proposées par L’EMLYON.
+L’application [Application] permet aux xxx de xxx.
 
 ##	Diagramme de contexte
+
+[insérer diagramme de contexte]
 
 ![Image](../image/WSProspect-DiagrammeContexte.png)
 
 ##	Architecture Fonctionnelle
 
-[< Precedent](./000-index.md) | [Table des matières](./999-toc.md) | [Suivant >](./200-archiTechnique.md)
-[< Precedent](./100-vueFonctionnelle.md) | [Table des matières](./999-toc.md) | [Suivant >](./300-baseDonnees.md)
+[insérer schéma architecture fonctionnelle]
+
+[< Précédent](./0000-index.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0400-archiTechnique.md)
+[< Précédent](./0300-vueFonctionnelle.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0500-baseDonnees.md)
 
 # Architecture Technique Générale
 
 ## Architecture applicative
 
-![Image](../plantUML/WSProspect-ArchiApplicative.png)
+[insérer schéma architecture applicative]
+
+![Image](../plantUML/Template-ArchiApplicative.png)
 
 ## Architecture Opérationnel
+
+[insérer schéma architecture opérationnel]
 
 ##	Plateforme Technique
 
@@ -125,30 +135,168 @@ L’application requière un contexte par transaction. Les transactions sont gé
 
 ##	Autres Eléments Techniques
 
-[< Precedent](./100-vueFonctionnelle.md) | [Table des matières](./999-toc.md) | [Suivant >](./300-baseDonnees.md)
-[< Precedent](./200-archiTechnique.md) | [Table des matières](./999-toc.md) | [Suivant >](./xxx.md)
+[< Précédent](./0300-vueFonctionnelle.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0500-baseDonnees.md)
+[< Précédent](./0400-archiTechnique.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0600-interfacesServices.md)
 
 # Base de données
 
-[< Precedent](./200-archiTechnique.md) | [Table des matières](./999-toc.md) | [Suivant >](./xxx.md)
-[Index](./000-index.md)
+## Modèle
+
+[insérer schéma modèle de donnée]
+
+## Autres Fichiers/Répertoire
+
+## Triggers
+
+## Procédures stockées
+
+## Extraction de données
+
+[< Précédent](./0400-archiTechnique.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0600-interfacesServices.md)
+[< Précédent](./0500-baseDonnees.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0700-batchs.md)
+
+# Interfaces / Services
+
+## Interface [Interface #1]
+
+### Description
+
+### Diagrammes de séquence
+
+![Image](../plantUML/Template-Service1-Sequence.png)
+
+### Logique avec règles métiers et techniques
+
+### Gestion des erreurs
+
+## Interface [Interface #2]
+
+[< Précédent](./0500-baseDonnees.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0700-batchs.md)
+[< Précédent](./0600-interfacesServices.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0800-interfacesUtilisateurs.md)
+
+# Batch Jobs
+
+## Traitement [Traitement #1]
+
+###	Description
+
+###	Fréquence et Mode d’Exécution
+
+###	Description des Entrées et des Sorties
+
+###	Description du Processus de Traitement de Logs
+
+### Description du processus de Gestion d’Erreur
+
+[< Précédent](./0600-interfacesServices.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0800-interfacesUtilisateurs.md)
+[< Précédent](./0700-batchs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0900-environnement.md)
+
+#	Interfaces Utilisateurs
+
+## Story board
+
+[insérer schéma de enchainement entre écrans, action possible sur la flèche]
+
+![Image](../plantUML/Template-StoryBoard.png)
+
+## Ecran [Nom Ecran #1]
+
+###	Description
+
+###	Acteurs
+
+###	Mapping de l’écran
+
+[insérer copie écran, mettre un Id sur chaque chaque champs dans l'écran, qui sera décrit dans le tableau ci dessous]
+
+| Id | Type | Obligatoire (O /N) | Description | Valeurs possible | Source de Données |
+|----|------|--------------------|-------------|------------------|-------------------|
+|    |      |                    |             |                  |                   |
+
+### Règles métiers et techniques
+
+### Gestion des erreurs
+
+## Ecran [Nom Ecran #2]
+
+[< Précédent](./0700-batchs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0900-environnement.md)
+[< Précédent](./0800-interfacesUtilisateurs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1000-procedureDeploiement.md)
+
+# Environnement
+
+[< Précédent](./0800-interfacesUtilisateurs.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1000-procedureDeploiement.md)
+[< Précédent](./0900-environnement.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1100-activitesPeriodiques.md)
+
+# Procédure de Deploiement
+
+Compilation en recette, copie du zip   et coller dans le répertoire sur le serveur de production. 
+
+[< Précédent](./0900-environnement.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1100-activitesPeriodiques.md)
+[< Précédent](./1000-procedureDeploiement.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1200-procedureDeBackup.md)
+
+# Activités Périodiques
+
+Pas d’activité périodique critique les inscriptions/candidatures peuvent se faire tout au long de l’année. 
+
+[< Précédent](./1000-procedureDeploiement.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1200-procedureDeBackup.md)
+[< Précédent](./1100-activitesPeriodiques.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1300-normesEtConventions.md)
+
+# Procedure De Backup
+
+[a préciser emplacement ,  procédure de restauration…]
+
+-	Un backup de la base de données est effectué tous les jours.
+-	Les codes sources des projets sont gérés et sauvegardés via GitLab
+-	Slp-Wpapp03 …/espace programme/wspROSPECT
+
+[< Précédent](./1100-activitesPeriodiques.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1300-normesEtConventions.md)
+[< Précédent](./1200-procedureDeBackup.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1400-historiqueApplication.md)
+
+# Normes Et Conventions
+
+[< Précédent](./1200-procedureDeBackup.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1400-historiqueApplication.md)
+[< Précédent](./1300-normesEtConventions.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1500-documentsReference.md)
+
+# Historique De L Application
+
+## Problèmes typiques
+
+## Historique des releases
+[à préciser  avec un personne de l’équipe  TMA]
+
+## Histoire de maintenance
+[à préciser  avec un personne de l’équipe TMA]
+
+## Interlocuteurs privilégiés  
+
+[< Précédent](./1300-normesEtConventions.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1500-documentsReference.md)
+[< Précédent](./1400-historiqueApplication.md) | [Table des matières](./9999-toc.md)
+
+#	Documents De Reference
+
+| Nom des documents   | Stockage des documents | Version | Dernière mise à jour |
+|---------------------|------------------------|---------|----------------------|
+|                     |                        |         |                      |
+
+[< Précédent](./1400-historiqueApplication.md) | [Table des matières](./9999-toc.md)
+[Index](./0000-index.md)
 
 # Table des matières
 
-- [Objectifs](./000-index.md#objectifs)
-- [Terminologie et Acronymes](./000-index.md#terminologie-et-acronymes)
-- [Vue Fonctionnelle](./100-vueFonctionnelle.md)
-- [Architecture Technique Général](./200-archiTechnique.md)
-- [Bases de Donnees et Dossiers](./300-baseDonnees.md)
-- [Interfaces / services](./400-InterfacesServices.md)
-- [Batch Jobs](./500-batchJobs.md)
-- Interfaces Utilisateurs
-- Environnement
-- Procedure De Deploiment
-- Activites Périodiques
-- Procédure De Backup
-- Normes Et Conventions
-- Historique De L'Application
-- Documents De Référence
+- [Objectifs](./0000-index.md#objectifs)
+- [Terminologie et Acronymes](./0000-index.md#terminologie-et-acronymes)
+- [Vue Fonctionnelle](./0300-vueFonctionnelle.md)
+- [Architecture Technique Général](./0400-archiTechnique.md)
+- [Bases de Donnees et Dossiers](./0500-baseDonnees.md)
+- [Interfaces / services](./0600-interfacesServices.md)
+- [Batch Jobs](./0700-batchs.md)
+- [Interfaces Utilisateurs](./0800-interfacesUtilisateurs.md)
+- [Environnement](0900-environnement.md)
+- [Procedure De Deploiment](./1000-procedureDeploiement.md)
+- [Activites Périodiques](./1100-activitesPeriodiques.md)
+- [Procédure De Backup](./1200-procedureDeBackup.md)
+- [Normes Et Conventions](./1300-normesEtConventions.md)
+- [Historique De l'Application](./1400-historiqueApplication.md)
+- [Documents De Référence](./1500-documentsReference.md)
 
-[Index](./000-index.md)
+[Index](./0000-index.md)

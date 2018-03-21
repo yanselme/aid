@@ -1,4 +1,4 @@
-[< Precedent](./0400-archiTechnique.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0600-interfacesServices.md)
+[< Précédent](./0400-archiTechnique.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0600-interfacesServices.md)
 
 # Base de données
 
@@ -14,4 +14,4 @@
 
 ## Extraction de données
 
-[< Precedent](./0400-archiTechnique.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0600-interfacesServices.md)
+[< Précédent](./0400-archiTechnique.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0600-interfacesServices.md)

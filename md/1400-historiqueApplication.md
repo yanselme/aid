@@ -1,4 +1,4 @@
-[< Precedent](./1300-normesEtConventions.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1500-documentsReference.md)
+[< Précédent](./1300-normesEtConventions.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1500-documentsReference.md)
 
 # Historique De L Application
 
@@ -12,4 +12,4 @@
 
 ## Interlocuteurs privilégiés  
 
-[< Precedent](./1300-normesEtConventions.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1500-documentsReference.md)
+[< Précédent](./1300-normesEtConventions.md) | [Table des matières](./9999-toc.md) | [Suivant >](./1500-documentsReference.md)

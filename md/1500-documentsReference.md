@@ -1,4 +1,4 @@
-[< Precedent](./1400-historiqueApplication.md) | [Table des matières](./9999-toc.md)
+[< Précédent](./1400-historiqueApplication.md) | [Table des matières](./9999-toc.md)
 
 #	Documents De Reference
 
@@ -6,4 +6,4 @@
 |---------------------|------------------------|---------|----------------------|
 |                     |                        |         |                      |
 
-[< Precedent](./1400-historiqueApplication.md) | [Table des matières](./9999-toc.md)
+[< Précédent](./1400-historiqueApplication.md) | [Table des matières](./9999-toc.md)
