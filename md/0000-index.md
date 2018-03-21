@@ -1,14 +1,16 @@
-# Application Information Document (AID) WSProspect 2
+[Table des matières](./9999-toc.md) | [Suivant >](./0300-vueFonctionnelle.md)
 
-Version: 0.1  
-Date : 12/03/2018  
+# Application Information Document (AID) [Nom Application]
+
+Version: x.y  
+Date : dd/mm/yyyy  
 Status: Draft  
 [Version PDF](./site.pdf)  
 
 ## Historique des modifications
 | Version | Date       | Auteur        | Description de la modification |
 |---------|------------|---------------|--------------------------------|
-| 0.1     | 12/03/2018 | Bounlay H     | Version initiale               |        
+| x.y     | dd/mm/yyyy | [Auteur]      | Version initiale               |        
 
 > Note :
 Date  : Cette date est la date de fourniture de documents après les  revues.
@@ -19,7 +21,7 @@ Des changements cosmétiques peuvent être publiés sans revue. Ceci peut engend
 ## Auteurs
 | Rôle        | Nom           | Société |
 |-------------|---------------|---------|
-| Developpeur | Bounlay H     | IBM     |
+| Developpeur | [Auteur]      | IBM     |
 
 ## Révisions
 Ce document a été revu par les personnes suivantes :
@@ -37,25 +39,25 @@ Ce document a été approuvé par les personnes suivantes :
 
 ## Table des matières
 
-- [Objectifs](./000-index.md#objectifs)
+- [Objectifs](./0000-index.md#objectifs)
 - [Terminologie et Acronymes](./000-index.md#terminologie-et-acronymes)
-- [Vue Fonctionnelle](./100-vueFonctionnelle.md)
-- [Architecture Technique Général](./200-archiTechnique.md)
-- [Bases de Donnees et Dossiers](./300-baseDonnees.md)
-- [Interfaces / services](./400-InterfacesServices.md)
-- [Batch Jobs](./500-batchJobs.md)
-- Interfaces Utilisateurs
-- Environnement
-- Procedure De Deploiment
-- Activites Périodiques
-- Procédure De Backup
-- Normes Et Conventions
-- Historique De L'Application
-- Documents De Référence
+- [Vue Fonctionnelle](./0300-vueFonctionnelle.md)
+- [Architecture Technique Général](./0400-archiTechnique.md)
+- [Bases de Donnees et Dossiers](./0500-baseDonnees.md)
+- [Interfaces / services](./0600-InterfacesServices.md)
+- [Batch Jobs](./0700-batchs.md)
+- [Interfaces Utilisateurs](./0800-interfacesUtilisateurs.md)
+- [Environnement](0900-environnement./.md)
+- [Procedure De Deploiment](./1000-procedureDeploiement.md)
+- [Activites Périodiques](./1100-activitesPeriodiques.md)
+- [Procédure De Backup](./1200-procedureDeBackup.md)
+- [Normes Et Conventions](./1300-normesEtConventions.md)
+- [Historique De l'Application](./1400-historiqueApplication.md)
+- [Documents De Référence](./1500-documentsReference.md)
 
 #	Objectifs
 
-L'objectif du document descriptif d’application (AID) est de fournir aux membres de l'équipe une vue d'ensemble de l'application WS Prospect. L'AID décrit la fonction de l'application, la structure des applications, la configuration de l’application et l'environnement technique. Ce document pourra faire référence à n'importe quelle documentation existante.
+L'objectif du document descriptif d’application (AID) est de fournir aux membres de l'équipe une vue d'ensemble de l'application [Application]. L'AID décrit la fonction de l'application, la structure des applications, la configuration de l’application et l'environnement technique. Ce document pourra faire référence à n'importe quelle documentation existante.
 L'équipe de delivery tiendra l'AID à jour durant toute la vie de l'application WS Prospect.
 
 # Terminologie et Acronymes
@@ -66,4 +68,4 @@ Les acronymes et la terminologie spécifiquement utilisés dans ce document sont
 | 1       |     AID     |        Document descriptif d’application |
 | 2       |     SME     |        Expert applicatif |
 
-[Table des matières](./999-toc.md) | [Suivant >](./100-vueFonctionnelle.md)
+[Table des matières](./9999-toc.md) | [Suivant >](./0300-vueFonctionnelle.md)
