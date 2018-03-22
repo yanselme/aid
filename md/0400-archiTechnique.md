@@ -12,6 +12,8 @@
 
 [insérer schéma architecture opérationnel]
 
+![Image](../plantUML/Template-ArchiOperationnel.png)
+
 ##	Plateforme Technique
 
 |     Type                           |     OS/Plateforme      |     Logiciel         |     Version        |
