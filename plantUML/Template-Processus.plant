@@ -1,0 +1,19 @@
+@startuml
+|Team 1|
+:foo1;
+-> You can put text on arrows;
+if (test) then
+  ->
+  :foo2;
+  -[dashed]-> The text can
+  also be on several lines
+  and **very** long...;
+  :foo3;
+else
+  -[dotted]->
+|Team 2|
+  :foo4;
+endif
+->
+:foo5;
+@enduml

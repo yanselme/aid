@@ -1,18 +1,14 @@
  @startuml
-User ---> (Aircraft TAT List) : click on "3 planes" icon
-(Aircraft TAT List) ---> (Aircraft TAT Detail) : click on Aircraft
-(Aircraft TAT List) --> (Sync Box) : click on "sync" icon
-(Aircraft TAT List) --> (Filter) : click on "filter" icon
-(Aircraft TAT List) --> (Aircraft TAT List) : click on "search" icon
-(Filter) --> (Aircraft TAT List) : CANCEL
-(Filter) --> (Aircraft TAT List) : APPLY
-(Aircraft TAT List) --> (Sorter) : click on "sorter" icon
-(Aircraft TAT Detail) --> (Sync Box) : click on "sync" icon
-(Aircraft TAT Detail) --> (Assign Mechanic) : click on "user" icon at TAT level
-(Aircraft TAT Detail) --> (Assign Mechanic) : click on "user" icon at WO level
-(Aircraft TAT Detail) --> (Preview) : PREVIEW
-(Aircraft TAT Detail) --> (Aircraft TAT Detail) : click on Aircraft
-(Assign Mechanic) --> (Aircraft TAT Detail) : CANCEL
-(Assign Mechanic) --> (Aircraft TAT Detail) : OK
-(Preview) --> (Aircraft TAT Detail) : X
+User --> (Customer list) : click on "Customer list" in the menu
+(Customer list) --> (Customer detail) : click on Detail
+(Customer detail) --> (Customer list) : click on Return
+(Customer list) --> (Customer creation) : click on Create
+(Customer creation) --> (Customer list) : click on Validate
+(Customer creation) --> (Customer list) : click on Cancel
+(Customer detail) --> (Customer modification) : click on Modify
+(Customer modification) --> (Customer detail) : click on Validate
+(Customer modification) --> (Customer detail) : click on Cancel
+(Customer list) --> (Popup "Are you sure ?") : click on Remove
+(Popup "Are you sure ?") --> (Customer list) : click on OK
+(Popup "Are you sure ?") --> (Customer list) : click on Cancel
 @enduml

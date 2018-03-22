@@ -1,22 +1,35 @@
 @startuml
-UserManagmentWS -> MMOBCompanyCacheManager : getMechanicsList
-UserManagmentWS -> AssignableBeanLocal : computeResourceUsageForMechanics
-AssignableBeanLocal -> AssignableBeanLocal : computeWOsPerMechanics
-alt !pAssignations.isEmpty()
-AssignableBeanLocal -> AssignableBeanLocal : updateListWithAssignedMwo
-AssignableBeanLocal -> AssignableBeanLocal : updateListWithAssignedTAT
+Alice -> Bob: Authentication Request
+note left: this is a first note
+
+activate Alice
+activate Bob
+
+alt successful case
+
+    Bob -> Alice: Authentication Accepted
+    note right: this is another note
+
+else some kind of failure
+
+    Bob -> Alice: Authentication Failure
+    group My own label
+    	Alice -> Log : Log attack start
+        Activate Log
+        loop 1000 times
+            Alice -> Bob: DNS Attack
+            note left
+            	a note
+            	can also be defined
+            	on several lines
+            end note
+      end
+    	Alice -> Log : Log attack end
+    end
+
+else Another type of failure
+
+   Bob -> Alice: Please repeat
+
 end
-AssignableBeanLocal -> AssignableBeanLocal : computeTATsPerMechanics
-alt !pAssignations.isEmpty()
-AssignableBeanLocal -> AssignableBeanLocal : updateTATsPerMechanicsWithSelectedAssignations
-end
-AssignableBeanLocal -> AssignableBeanLocal : computeNumberOfMechanicsPerMwo
-AssignableBeanLocal -> AssignableBeanLocal : computeMaintenanceWorkOrderPerUser
-AssignableBeanLocal -> UserList: getUsers
-loop iUser
-            AssignableBeanLocal -> User : setWorkload
-            AssignableBeanLocal -> User : setBeginTime
-            AssignableBeanLocal -> User : setEndTime
-end
-AssignableBeanLocal --> UserManagmentWS : return MechanicsList
 @enduml

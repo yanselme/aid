@@ -5,17 +5,17 @@ package "Frontal" {
 }
 
 package "Service WSProspect"{
-    [WSProspect] as Svc  
-    
+    [WSProspect] as Svc
+
     database [HOMESQL1] {
-        folder ETL_BDD { 
+        folder ETL_BDD {
             entity WSProspect_Prospect as p
             entity WSProspect_Prospect_Programme as pp
         }
     }
 }
 
-package "Flux planifiÈ" {
+package "Flux planifi√©" {
     cloud "SALESFORCE" {
         [ARPEGE] as ARPEGE
     }
@@ -31,6 +31,6 @@ Svc -> pp
 p -down-> Talend
 Talend -right-> ARPEGE : "Contacts"
 pp -> Talend
-Talend -right-> ARPEGE : "OpportunitÈs"
+Talend -right-> ARPEGE : "Opportunit√©s"
 
 @enduml

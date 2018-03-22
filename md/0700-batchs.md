@@ -12,6 +12,10 @@
 
 ###	Description du Processus de Traitement de Logs
 
+![Image](../plantUML/Template-Processus.png)
+
+[ajouter la description du processus]
+
 ### Description du processus de Gestion d’Erreur
 
 [< Précédent](./0600-interfacesServices.md) | [Table des matières](./9999-toc.md) | [Suivant >](./0800-interfacesUtilisateurs.md)
