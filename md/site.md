@@ -100,6 +100,8 @@ L’application [Application] permet aux xxx de xxx.
 
 [insérer schéma architecture opérationnel]
 
+![Image](../plantUML/Template-ArchiOperationnel.png)
+
 ##	Plateforme Technique
 
 |     Type                           |     OS/Plateforme      |     Logiciel         |     Version        |
@@ -165,9 +167,21 @@ L’application requière un contexte par transaction. Les transactions sont gé
 
 ![Image](../plantUML/Template-Service1-Sequence.png)
 
+[ajouter la description du digramme de séquence]
+
 ### Logique avec règles métiers et techniques
 
+[ajouter la description de règle métiers complexe utilisé dans le diagramme de sequence]
+
 ### Gestion des erreurs
+
+[ajouter code erreurs de retour]
+
+### Processus
+
+![Image](../plantUML/Template-Processus.png)
+
+[ajouter la description du processus]
 
 ## Interface [Interface #2]
 
@@ -185,6 +199,10 @@ L’application requière un contexte par transaction. Les transactions sont gé
 ###	Description des Entrées et des Sorties
 
 ###	Description du Processus de Traitement de Logs
+
+![Image](../plantUML/Template-Processus.png)
+
+[ajouter la description du processus]
 
 ### Description du processus de Gestion d’Erreur
 
