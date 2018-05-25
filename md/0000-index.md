@@ -48,12 +48,13 @@ Ce document a été approuvé par les personnes suivantes :
 - [Batch Jobs](./0700-batchs.md)
 - [Interfaces Utilisateurs](./0800-interfacesUtilisateurs.md)
 - [Environnement](0900-environnement.md)
-- [Procedure De Deploiment](./1000-procedureDeploiement.md)
-- [Activites Périodiques](./1100-activitesPeriodiques.md)
-- [Procédure De Backup](./1200-procedureDeBackup.md)
+- [Procédure De Backup](./1000-procedureDeBackup.md)
+- [Procedure De Deploiment](./1100-procedureDeploiement.md)
+- [Activites Périodiques](./1200-activitesPeriodiques.md)
 - [Normes Et Conventions](./1300-normesEtConventions.md)
-- [Historique De l'Application](./1400-historiqueApplication.md)
-- [Documents De Référence](./1500-documentsReference.md)
+- [Contracts Métier / AMOA](./1400-contactsmetierAmoa.md)
+- [Historique De l'Application](./1500-historiqueApplication.md)
+- [Documents De Référence](./1600-documentsReference.md)
 
 #	Objectifs
 
